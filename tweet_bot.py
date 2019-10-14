@@ -1,5 +1,4 @@
 #First step is to apply for developer status with Twitter through developer.twitter.com and generate API keys
-
 import tweepy
 
 #Copy API keys from developer profile and add to code below
@@ -17,6 +16,7 @@ user_name = []
 tweetList = []
 oldTweets = []
 
+#Code to create list of tweets from designated users, making sure none have be retweeted before
 def getTweet (user_name):
     for users in user_name:
         user = api.get_user(users)
@@ -25,6 +25,7 @@ def getTweet (user_name):
         if tweetId not in oldTweets:
             tweetList.append(tweetId)
 
+#Code to take all tweets in generated list and retweet             
 def retweets (tweetList):
     for tweet in tweetList:
         api.retweet(tweet)
@@ -32,7 +33,7 @@ def retweets (tweetList):
     tweetList.clear()
     return oldTweets
 
-
+#Run program functions and return message when successful
 getTweet(user_name)
 retweets(tweetList)
 print ('Successful Run')
