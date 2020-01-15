@@ -4,7 +4,7 @@ so that our twitter account has consistent content. This has helped us gain more
 delivering value to our followers. 
 
 I stick to a list of 6 people retweeted hourly so as not to overwhelm, the only thing missing is however you want
-to host the bot itself. If you want to use this bot but don't have a way to host, let me know and I can host the bot for you for $1/month. 
+to host the bot itself. If you want to use this bot but don't have a way to host, let me know and I can walk you through how I set up mine.  
 
 Hope this is helpful too you and let me know if you have suggestions or questions!
 Wyld Wanderer
